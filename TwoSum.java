@@ -14,3 +14,5 @@ class Solution {
         return new int [] {}; //empty returm stateent to make sure the code does not conflict on run time.
     }
 }
+
+// Time Complexity O(n) Spae Complexity O(n) 
