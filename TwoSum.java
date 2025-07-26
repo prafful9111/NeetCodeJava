@@ -1,5 +1,5 @@
 //Problem #3 to find the element and index of sum of two  number in target also called as target sum in short 
-
+//HashMap has the property of storing key and value together 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(); //we will use the HashMap to store the array element and their index first
