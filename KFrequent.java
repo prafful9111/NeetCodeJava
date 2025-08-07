@@ -11,8 +11,8 @@ class Solution{
     for (Map.Entry<Integer, Integer> entry: count.entrySet()){ //Making te Entry in the freq array ( Buckets) 
       freq[entry.getValue()].add(entry.getKey());
     }
-    int index = 0;
-    int [] res = new int [k];
+    int index = 0;//initializing the index variable with zero value
+    int [] res = new int [k]; //createing a new array name res to store result has the initial value k
     for (int i=freq.length -1; i>0 && index < k; i--){ //Itrating backward to get top k frequent element 
       for (int n: freq[i]){
         res[index++] =n;
