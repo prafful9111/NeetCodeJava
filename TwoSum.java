@@ -11,7 +11,7 @@ class Solution {
             }
             map.put(nums[i], i); //if not then put that into map 
         }
-        return new int [] {}; //empty returm stateent to make sure the code does not conflict on run time.
+        return new int [] {}; //empty return stateent to make sure the code does not conflict on run time.
     }
 }
 
